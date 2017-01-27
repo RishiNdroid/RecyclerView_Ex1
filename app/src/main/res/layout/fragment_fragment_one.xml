@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rndroid.recyclerview_ex1.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:hint="Enter Actor Name"
+        android:textSize="18sp"
+        android:id="@+id/ed1Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Enter Movie Name"
+        android:textSize="18sp"
+        android:id="@+id/edMname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:hint="Submit"
+        android:textSize="18sp"
+        android:id="@+id/btSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
